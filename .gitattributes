@@ -1,0 +1,5 @@
+# Set the default behavior to normalize line endings
+* text=auto
+
+# Declare files that will always have LF line endings on checkout
+*.ts *.md *.json *.yaml text eol=crlf
