@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"**/*.ts\"",
-    "lint:fix": "eslint --fix \"**/*.ts\""
+    "lint:fix": "eslint --fix \"**/*.ts\"",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
