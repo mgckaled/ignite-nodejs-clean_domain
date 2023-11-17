@@ -21,9 +21,9 @@ Esse projeto será dividido em duas partes. O primeiro módulo será focado na c
 
 Nesse módulo você irá aprender os fundamentos de Domain-Driven Design e Clean Architecture na construção de uma API REST para um fórum. Você aprenderá a desenhar a arquitetura da aplicação utilizando conceitos de DDD, criar Value Objects e Relacionamentos, lidar com erros de forma funcional, desenvolver casos de uso, testes unitários, aplicar Subdomínios e Domain Events.
 
-> [comandos](./.github/docs/a_commands.md) de terminal utilizados neste projeto
+> [Comandos](./.github/docs/a_commands.md) de terminal utilizados neste projeto
 >
-> [notas](./.github/docs/b_notes.md) sobre conceitos e explicações
+> [Notas](./.github/docs/b_notes.md) sobre conceitos e explicações
 >
 > Análise interpretativa e lógica do [código](./.github/docs/c_code-analysis.md)
 
