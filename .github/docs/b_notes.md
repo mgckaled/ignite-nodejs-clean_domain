@@ -2,10 +2,9 @@
 
 > [voltar](../../README.md) para a página anterior
 
-## Sumário
+**Sumário:**
 
 - [Notas Importantes](#notas-importantes)
-  - [Sumário](#sumário)
   - [Glossário DDD](#glossário-ddd)
     - [Domínio](#domínio)
     - [Entidades](#entidades)
