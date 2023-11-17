@@ -26,11 +26,14 @@ Nesse módulo você irá aprender os fundamentos de Domain-Driven Design e Clean
 > [Notas](./.github/docs/b_notes.md) sobre conceitos e explicações
 >
 > Análise interpretativa e lógica do [código](./.github/docs/c_code-analysis.md)
+>
+> Perguntas e Respostas dos [quizzes](./.github/docs/d_quizzes.md).
 
 ## Tecnologias
 
 - [`NodeJs`](https://nodejs.org/)
 - [`typescript`](https://www.typescriptlang.org/)
+- [`vitest`](https://vitest.dev/)
 
 ## Licença
 
