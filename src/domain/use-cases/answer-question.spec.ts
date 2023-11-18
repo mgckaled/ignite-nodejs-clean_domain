@@ -1,4 +1,3 @@
-import { expect, test } from 'vitest'
 import { type Answer } from '../entities/answer'
 import { type AnswersRepository } from '../repositories/answers-repository'
 import { AnswerQuestionUseCase } from './answer-question'
@@ -18,5 +17,5 @@ test('create an answer', async () => {
     content: 'Nova resposta'
   })
 
-  expect(answer.content).toEqual('Nova resposta')
+  expect(answer.content).toBe('Nova resposta')
 })
