@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint \"**/*.ts\"",
-    "lint:fix": "eslint --fix \"**/*.ts\"",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -21,6 +21,7 @@
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vitest": "^0.3.9",
+    "eslint-plugin-vitest-globals": "^1.4.0",
     "typescript": "^5.2.2",
     "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.6"
@@ -30,3 +31,5 @@
     "vite": "^5.0.0"
   }
 }
+
+

@@ -1,9 +1,10 @@
 {
   "env": {
     "es2021": true,
-    "node": true
+    "node": true,
+    "vitest-globals/env": true
   },
-  "extends": ["standard-with-typescript", "plugin:vitest/recommended"],
+  "extends": ["standard-with-typescript", "plugin:vitest-globals/recommended"],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -11,8 +12,7 @@
   },
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/adjacent-overload-signatures": "off"
+    "@typescript-eslint/adjacent-overload-signatures": "off",
+    "no-useless-constructor": "off"
   }
 }
-
-

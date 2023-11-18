@@ -37,6 +37,9 @@ devDependencies:
   eslint-plugin-vitest:
     specifier: ^0.3.9
     version: 0.3.9(@typescript-eslint/eslint-plugin@6.11.0)(eslint@8.54.0)(typescript@5.2.2)(vitest@0.34.6)
+  eslint-plugin-vitest-globals:
+    specifier: ^1.4.0
+    version: 1.4.0
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -1163,6 +1166,10 @@ packages:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
       eslint: 8.54.0
+    dev: true
+
+  /eslint-plugin-vitest-globals@1.4.0:
+    resolution: {integrity: sha512-WE+YlK9X9s4vf5EaYRU0Scw7WItDZStm+PapFSYlg2ABNtaQ4zIG7wEqpoUB3SlfM+SgkhgmzR0TeJOO5k3/Nw==}
     dev: true
 
   /eslint-plugin-vitest@0.3.9(@typescript-eslint/eslint-plugin@6.11.0)(eslint@8.54.0)(typescript@5.2.2)(vitest@0.34.6):
