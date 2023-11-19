@@ -17,6 +17,7 @@
   - [Outros Conceitos](#outros-conceitos)
     - [O que é DDD?](#o-que-é-ddd)
     - [O que é Slug?](#o-que-é-slug)
+    - [O que é Clean Architecture?](#o-que-é-clean-architecture)
 
 ## Glossário DDD
 
@@ -137,6 +138,31 @@ Neste caso, "um-exemplo-de-slug" é o slug, que geralmente é derivado do títul
 Ao criar slugs, os desenvolvedores geralmente convertem caracteres especiais e espaços em branco em hífens, removem acentos e letras maiúsculas, e mantêm apenas caracteres alfanuméricos. Isso ajuda a garantir que os slugs sejam amigáveis para URLs e evitem problemas de codificação.
 
 A utilização de slugs é comum em sistemas de gerenciamento de conteúdo, blogs, fóruns e outros tipos de aplicativos web onde URLs amigáveis são desejáveis.
+
+> [retornar](#notas-importantes) para o topo da página
+
+### O que é Clean Architecture?
+
+A Clean Architecture, ou Arquitetura Limpa, é um conceito proposto por Robert C. Martin ([veja mais detalhes](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)), também conhecido como "Uncle Bob", que visa criar sistemas de software modulares, escaláveis e testáveis. A ideia central é organizar o código de maneira que as dependências apontem sempre para o centro do sistema, permitindo que as camadas internas sejam independentes das camadas externas. Aqui estão alguns dos fundamentos da Clean Architecture:
+
+1. **Independência de Frameworks**: A arquitetura deve ser independente de frameworks externos. Isso significa que as camadas mais internas do sistema não devem depender de detalhes de implementação de frameworks externos, como bancos de dados específicos, frameworks web ou bibliotecas de UI.
+
+2. **Testabilidade**: O código deve ser projetado de maneira que seja fácil escrever testes automatizados para cada componente. Isso é alcançado garantindo que as camadas internas do sistema sejam isoladas e independentes.
+
+3. **Independência de Interface do Usuário (UI)**: A lógica de negócios do sistema não deve depender da interface do usuário. Isso permite que diferentes interfaces de usuário (por exemplo, web, mobile, linha de comando) sejam facilmente adaptadas sem alterar a lógica subjacente.
+
+4. **Independência de Banco de Dados**: A lógica de negócios não deve ser vinculada a um banco de dados específico. A escolha e a mudança do banco de dados não devem afetar a lógica de negócios do sistema.
+
+5. **Separação de Responsabilidades (SoC - Separation of Concerns)**: Os diferentes aspectos do sistema (interface do usuário, lógica de negócios, persistência de dados) devem ser separados e gerenciados independentemente uns dos outros. Isso facilita a manutenção e a evolução do sistema.
+
+6. **Princípio da Inversão de Dependência (DIP - Dependency Inversion Principle)**: A dependência de módulos de alto nível não deve depender dos módulos de baixo nível, mas sim de abstrações. Isso significa que as camadas mais internas (como a lógica de negócios) devem depender de abstrações, não de detalhes de implementação.
+
+7. **Camadas da Arquitetura**: A Clean Architecture propõe uma estrutura de camadas, geralmente dividida em:
+   - **Entidades**: Representa as regras de negócios e o estado puro do sistema.
+   - **Casos de Uso (Use Cases)**: Contém as regras de negócios específicas da aplicação.
+   - **Controladores/Adaptadores de Interface**: Lida com a comunicação entre o sistema e o mundo externo (por exemplo, interface do usuário, APIs).
+
+Ao seguir esses princípios, a Clean Architecture visa criar sistemas flexíveis, fáceis de manter, testar e evoluir ao longo do tempo.
 
 > [retornar](#notas-importantes) para o topo da página
 >
