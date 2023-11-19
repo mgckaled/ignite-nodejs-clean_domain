@@ -13,6 +13,7 @@
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/adjacent-overload-signatures": "off",
-    "no-useless-constructor": "off"
+    "no-useless-constructor": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
   }
 }
